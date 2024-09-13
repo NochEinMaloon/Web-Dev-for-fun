@@ -9,7 +9,11 @@ console.log("Landing");
 
     }
 
-    window.onload
+    //window.onload
+
+    var Menubar = document.querySelector("menu");
+    console.log(Menubar);
+    
 
     console.log(menuitems);
     
