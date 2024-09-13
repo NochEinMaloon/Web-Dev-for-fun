@@ -4,6 +4,8 @@ console.log("Landing");
     constructor()
 } */
 
+    const QueryArgs = window.location.search.substr(1).split("&");
+
     class Project{
         
     }
@@ -12,10 +14,11 @@ console.log("Landing");
         constructor(){
             console.log("Creating Page");
             console.log(this);
+            console.log(QueryArgs);
+            
         }
         create(){
-            var Qarrystring = window.location.search;
-            console.log("Guerry: "+ Qarrystring);
+            console.log("Guerry: "+ QueryArgs);
             
             
             console.log("Pages:");
