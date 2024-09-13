@@ -13,12 +13,12 @@ menu{
 }
 menuitem.Menuitem {
     padding: 16px 22px;
-    background: --button-color;
+    background: var(--button-color);
     margin: 0 autp;
     display: inline-block;
     text-align: center;
 }
 
 menuitem.Menuitem:hover {
-    background: --button-color_active;
+    background: var(--button-color_active);
 }
