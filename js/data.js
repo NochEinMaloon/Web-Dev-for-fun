@@ -8,3 +8,12 @@ const menuitems = [
         link: "/"
     }
 ];
+
+const Pages = [
+    {
+        Name: "Home",
+        Content: {
+            
+        }
+    }
+];

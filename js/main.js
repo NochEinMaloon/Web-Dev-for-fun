@@ -10,7 +10,16 @@ console.log("Landing");
             console.log(this);
         }
         create(){
-            console.log("Test");
+            var Qarrystring = window.location.search;
+            console.log("Guerry: "+ Qarrystring);
+            
+            
+            console.log("Pages:");
+            console.log(Pages);
+            Pages.forEach(Page => {
+                console.log(Page);
+                
+            })
             
         }
         createheader(){
