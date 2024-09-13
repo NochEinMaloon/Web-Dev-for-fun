@@ -1,4 +1,24 @@
+:root{
+    --button-color: rgb(219, 155, 15);
+    --button-color_active: var(--button-color)+rgb(219, 155, 15);
+}
+
 body{
     background-color: white;
     margin: 0 auto;
+}
+
+menu{
+    text-align: center;
+}
+menuitem.Menuitem {
+    padding: 16px 22px;
+    background: --button-color;
+    margin: 0 autp;
+    display: inline-block;
+    text-align: center;
+}
+
+menuitem.Menuitem:hover {
+    background: --button-color_active;
 }
