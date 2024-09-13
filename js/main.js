@@ -5,18 +5,17 @@ console.log("Landing");
 } */
 
     class Page{
-        constructor(
+        constructor(){
             console.log("Creating Page");
             console.log(this);
-            
-        )
+        }
         create(){
             console.log("Test");
             
         }
     }
 
-    var Page = new Page;
+    var Page = new Page();
 
 
     function createELM(name, parent, id){
