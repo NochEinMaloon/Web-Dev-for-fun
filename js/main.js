@@ -18,7 +18,7 @@ console.log("Landing");
     console.log(menuitems);
     
 
-/*     menuitems.forEach(menuitem => {
+    menuitems.forEach(menuitem => {
         var Menubar = document.querySelector("menu");
         console.log(Menubar);
         console.log(menuitem);
@@ -35,4 +35,4 @@ console.log("Landing");
 
         
         
-    }); */
+    });
