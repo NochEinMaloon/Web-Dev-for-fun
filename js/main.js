@@ -15,6 +15,7 @@ console.log("Landing");
         }
     }
     var thispage = new Page();
+    thispage.create();
 
     //why not workim?
 
