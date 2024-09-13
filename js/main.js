@@ -33,7 +33,8 @@ console.log("Landing");
               
                 return params;
             };
-              
+            console.log("Incoming Params");
+            
             console.log(getQueryParams(window.location));
             
 /*             console.log("Creating Page");
