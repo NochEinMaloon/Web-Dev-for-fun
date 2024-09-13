@@ -29,7 +29,7 @@ console.log("Landing");
 
         newMenitem.classList.add("Test");
 
-        //Menubar.appendChild(newMenitem);
+        Menubar.appendChild(newMenitem);
 
         //TODO: Isactive
 
