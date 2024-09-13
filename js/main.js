@@ -9,12 +9,13 @@ console.log("Landing");
 
     }
 
-    const Menubar = document.querySelector("menu");
+    
 
     console.log(menuitems);
     
 
     menuitems.forEach(menuitem => {
+        const Menubar = document.querySelector("menu");
         const newMenitem = document.createElement("Menuitem");
         newMenitem.innerHTML = menuitem.name;
         newMenitem.href = menuitem.link;
