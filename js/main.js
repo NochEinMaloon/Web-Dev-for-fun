@@ -15,7 +15,7 @@ console.log("Landing");
     
 
     menuitems.forEach(menuitem => {
-        const Menubar = document.querySelector("menu");
+        var Menubar = document.querySelector("menu");
         console.log(Menubar);
         console.log(menuitem);
 
@@ -25,7 +25,7 @@ console.log("Landing");
 
         newMenitem.classList.add("Test");
 
-        Menubar.appendChild(newMenitem);
+        //Menubar.appendChild(newMenitem);
 
         //TODO: Isactive
 
