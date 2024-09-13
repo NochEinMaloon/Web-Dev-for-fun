@@ -13,6 +13,8 @@ console.log("Landing");
     class Page{
         constructor(){
 
+            
+
             const getQueryParams = (query) => {
                 let params = {};
                 new URLSearchParams(query).forEach((value, key) => {
@@ -32,7 +34,8 @@ console.log("Landing");
                 return params;
             };
               
-
+            console.log(getQueryParams(window.location));
+            
 /*             console.log("Creating Page");
             console.log(this);
             console.log(QueryArgs);
