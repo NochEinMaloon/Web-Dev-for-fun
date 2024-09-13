@@ -9,13 +9,13 @@ body{
 }
 
 .header{
-    
+
 }
 
 menu{
     text-align: center;
 }
-menuitem.Menuitem {
+.Menuitem {
     padding: 16px 22px;
     background: var(--button-color);
     margin: 0 autp;
@@ -23,7 +23,7 @@ menuitem.Menuitem {
     text-align: center;
 }
 
-menuitem.Menuitem:hover {
+.Menuitem:hover {
     background: var(--button-color_active);
 }
 

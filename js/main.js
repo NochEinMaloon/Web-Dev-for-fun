@@ -62,7 +62,7 @@ console.log("Landing");
             menuitems.forEach(menuitem => {
                 var Menubar = document.querySelector("menu");
         
-                const newMenitem = document.createElement("Menuitem");
+                const newMenitem = document.createElement("div");
                 newMenitem.innerHTML = menuitem.Name;
                 newMenitem.href = menuitem.link;
                 newMenitem.setAttribute("href", "aaa");
