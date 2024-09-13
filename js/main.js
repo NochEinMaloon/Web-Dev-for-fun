@@ -12,9 +12,34 @@ console.log("Landing");
 
     class Page{
         constructor(){
-            console.log("Creating Page");
+
+            const getQueryParams = (query) => {
+                let params = {};
+                new URLSearchParams(query).forEach((value, key) => {
+                  let decodedKey = decodeURIComponent(key);
+                  let decodedValue = decodeURIComponent(value);
+                  // This key is part of an array
+                  if (decodedKey.endsWith("[]")) {
+                    decodedKey = decodedKey.replace("[]", "");
+                    params[decodedKey] || (params[decodedKey] = []);
+                    params[decodedKey].push(decodedValue);
+                    // Just a regular parameter
+                  } else {
+                    params[decodedKey] = decodedValue;
+                  }
+                });
+              
+                return params;
+            };
+              
+
+/*             console.log("Creating Page");
             console.log(this);
             console.log(QueryArgs);
+
+            console.log("NEW QUERY");
+            var  */
+            
             
         }
         create(){
