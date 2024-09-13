@@ -1,6 +1,6 @@
 :root{
     --button-color: rgb(219, 155, 15);
-    --button-color_active: var(--button-color)+rgb(219, 155, 15);
+    --button-color_active: rgb(245, 194, 84);
 }
 
 body{
@@ -22,3 +22,4 @@ menuitem.Menuitem {
 menuitem.Menuitem:hover {
     background: var(--button-color_active);
 }
+

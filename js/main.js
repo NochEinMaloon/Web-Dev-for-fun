@@ -4,6 +4,10 @@ console.log("Landing");
     constructor()
 } */
 
+    class Project{
+        
+    }
+
     class Page{
         constructor(){
             console.log("Creating Page");
