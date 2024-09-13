@@ -14,7 +14,7 @@ console.log("Landing");
             
         }
     }
-    var Page = new Page();
+    var thispage = new Page();
 
     //why not workim?
 
