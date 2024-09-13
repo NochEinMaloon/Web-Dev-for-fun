@@ -9,10 +9,7 @@ console.log("Landing");
 
     }
 
-    onreadystatechange = (event) => {
-        console.log(event);
-        
-    }
+    window.onload
 
     console.log(menuitems);
     
