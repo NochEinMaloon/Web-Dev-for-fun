@@ -13,9 +13,30 @@ console.log("Landing");
             console.log("Test");
             
         }
+        createheader(){
+            menuitems.forEach(menuitem => {
+                var Menubar = document.querySelector("menu");
+        
+                const newMenitem = document.createElement("Menuitem");
+                newMenitem.innerHTML = menuitem.Name;
+                newMenitem.href = menuitem.link;
+        
+                newMenitem.classList.add("Menuitem");
+        
+                //TODO: Isactive check
+        
+                Menubar.appendChild(newMenitem);
+        
+                
+        
+                
+                
+            });
+        }
     }
     var thispage = new Page();
     thispage.create();
+    thispage.createheader();
 
     //why not workim?
 
@@ -33,21 +54,4 @@ console.log("Landing");
     console.log(menuitems);
     
 
-    menuitems.forEach(menuitem => {
-        var Menubar = document.querySelector("menu");
-
-        const newMenitem = document.createElement("Menuitem");
-        newMenitem.innerHTML = menuitem.Name;
-        newMenitem.href = menuitem.link;
-
-        newMenitem.classList.add("Menuitem");
-
-        //TODO: Isactive check
-
-        Menubar.appendChild(newMenitem);
-
-        
-
-        
-        
-    });
+    
