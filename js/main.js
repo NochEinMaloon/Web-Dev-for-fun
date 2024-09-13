@@ -65,6 +65,7 @@ console.log("Landing");
                 const newMenitem = document.createElement("Menuitem");
                 newMenitem.innerHTML = menuitem.Name;
                 newMenitem.href = menuitem.link;
+                newMenitem.setAttribute("href", "aaa");
         
                 newMenitem.classList.add("Menuitem");
         
