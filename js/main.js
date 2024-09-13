@@ -14,8 +14,9 @@ console.log("Landing");
             
         }
     }
-
     var Page = new Page();
+
+    //why not workim?
 
 
     function createELM(name, parent, id){
