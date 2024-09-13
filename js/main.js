@@ -16,6 +16,9 @@ console.log("Landing");
 
     menuitems.forEach(menuitem => {
         const Menubar = document.querySelector("menu");
+        console.log(Menubar);
+        console.log(menuitem);
+
         const newMenitem = document.createElement("Menuitem");
         newMenitem.innerHTML = menuitem.name;
         newMenitem.href = menuitem.link;
@@ -26,6 +29,6 @@ console.log("Landing");
 
         //TODO: Isactive
 
-        console.log(menuitem);
+        
         
     });
